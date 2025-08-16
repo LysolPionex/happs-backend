@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ## keep credentials out of git ##
-/src/main/resources/application.properties
+src/main/resources/application.properties
