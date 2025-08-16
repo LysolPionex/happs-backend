@@ -1,4 +1,5 @@
 spring.application.name=happs-backend
+spring.jpa.open-in-view=false
 
 # you will need to supply your own credentials for some of these fields
 # then rename removing the .template from this file
@@ -9,13 +10,13 @@ aws.cognito.clientId=4kukljbrlv482ie3iiqa2jsf1t
 aws.cognito.region=us-east-2
 aws.accessKeyId=<IAM on AWS>
 aws.secretKey=<IAM on AWS>
-# security concerns to fix: bucket public access, RDS TCP port
+
 # AWS S3 Configuration
 aws.s3.bucket=happs-timeline-media-bucket-lysolpionex
 aws.s3.region=us-east-2
 
 # Spring Data JPA (PostgreSQL, for future DB setup)
-spring.datasource.url=jdbc:postgresql://happs-db.czug0mqkecq1.us-east-2.rds.amazonaws.com:5432/happsdb
+spring.datasource.url=jdbc:postgresql://happs-db.czug0mqkecq1.us-east-2.rds.amazonaws.com:5432/postgres
 spring.datasource.username=<rds-username>
 spring.datasource.password=<rds-password>
 spring.jpa.hibernate.ddl-auto=update

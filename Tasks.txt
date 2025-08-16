@@ -1,0 +1,6 @@
+Tasks (unassociated with specific files)
+
+using generated security password: 
+- Implement a proper security configuration (e.g., custom UserDetailsService with your User entity or OAuth2).
+- Disable auto-generated users by defining a @Bean for SecurityFilterChain or setting up your own authentication.
+
