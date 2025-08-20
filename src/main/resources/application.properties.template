@@ -5,8 +5,10 @@ spring.jpa.open-in-view=false
 # then rename removing the .template from this file
 
 # AWS Cognito config
+spring.security.oauth2.resourceserver.jwt.issuer-uri=https://cognito-idp.us-east-2.amazonaws.com/us-east-2_ZtREtpnIH
 aws.cognito.userPoolId=us-east-2_ZtREtpnIH
-aws.cognito.clientId=4kukljbrlv482ie3iiqa2jsf1t
+aws.cognito.clientId=6dil7tocpv5je2etb6bb7jsnkv
+aws.cognito.clientSecret=<cognito on AWS>
 aws.cognito.region=us-east-2
 aws.accessKeyId=<IAM on AWS>
 aws.secretKey=<IAM on AWS>
