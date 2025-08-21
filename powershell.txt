@@ -1,0 +1,2 @@
+//connect to happs postgres db
+psql -h happs-db.czug0mqkecq1.us-east-2.rds.amazonaws.com -U happsadmin -d postgres

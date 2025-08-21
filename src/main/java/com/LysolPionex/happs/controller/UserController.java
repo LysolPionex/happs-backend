@@ -32,4 +32,11 @@ public class UserController {
         return user.map(ResponseEntity::ok).
                     orElseGet(() -> ResponseEntity.notFound().build());
     }
+    
+    @GetMapping("/username/{username}")
+    public ResponseEntity<User> getUserByUsername(@PathVariable String username){
+        Optional<User> user = userRepository.findByUsername(username);
+        return user.map(ResponseEntity::ok).
+                    orElseGet(() -> ResponseEntity.notFound().build());
+    }
 }
