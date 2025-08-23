@@ -74,6 +74,16 @@
 		    <version>1.204.0</version>
 		</dependency>
 		<dependency>
+		    <groupId>com.amazonaws</groupId>
+		    <artifactId>aws-java-sdk-cognitoidp</artifactId>
+		    <version>1.12.731</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.amazonaws</groupId>
+		    <artifactId>aws-java-sdk-core</artifactId>
+		    <version>1.12.731</version>
+		</dependency>
+		<dependency>
 		    <groupId>org.springframework.security</groupId>
 		    <artifactId>spring-security-oauth2-resource-server</artifactId>
 		</dependency>
